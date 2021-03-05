@@ -1,0 +1,29 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #292929;
+
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 5px #797878;
+}
+ul li {
+    text-transform: capitalize;
+    line-height: 2.0em;
+}
+.cloud {
+    color: blue;
+}
+
+h3 {
+    font-weight: bold;
+}
+h3::first-letter {
+    font-size: 150%;
+}
+.last {
+    text-align: center;
+}

@@ -1,0 +1,622 @@
+/* ******************
+Global
+****************** */
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.section-heading-w {
+    color: #ffffff;
+}
+.section-heading-g {
+    color: #668e19;
+}
+.section-heading-b {
+    color: black;
+}
+.section-h1 {
+    text-transform: uppercase;
+}
+.section-p {
+    color: #979797;
+    font-size: small;
+}
+
+.btn-yellow {
+    /* margin-top: 15px;
+    margin-bottom: 30px; */
+    padding: 5px 25px;
+    background-color: #ffbd1a;
+    text-transform: uppercase;
+    /* outline-style: none; */
+    border-bottom: 3px solid #ff831d;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.fa-green {
+    color: #668e19;
+}
+
+
+
+
+/* ******************
+Navbar section
+****************** */
+
+/* navbar top */
+.navbar-top {
+    background: #212121;
+}
+.social-circle-icons .dot {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    background-color: #303030;
+    /* display: inline-block; */
+}
+.navbar-top .social-circle-icons i {
+    color: #bcbec0;
+}
+.navbar-top .navbar-text {
+    color: #cacbcb;
+}
+/* .navbar-top .navbar-text i {
+    color: #8bc33f !important;
+} */
+.navbar-top .navbar-text input {
+    background-color: #a2d84c;
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/* navbar bottom */
+.navbar-bottom {
+    background-color: #ffffff;
+}
+.navbar-bottom .nav-item {
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.navbar-bottom .nav-item:hover {
+    border-bottom: 2px solid #ffbd1a;
+}
+
+/* ******************
+slider section
+****************** */
+
+.section-slider {
+    background-image: url("../images/slide_background2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    /* text-align: center; */
+    color: #ffffff;
+}
+.section-slider h1 {
+    font-size: 70px;
+}
+.section-slider p {
+    margin: 30px 0;
+}
+
+.section-slider .btn-yellow {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* ******************
+Advantages section
+****************** */
+
+.section-advantages {
+    background-color: #ffffff;
+}
+.row-circles {
+    margin-top: 40px;
+}
+
+.dot {
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    background-color: #f1f2f2;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;   
+}
+.row-circles h1 {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.row-circles p {
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #b7b9bb;
+}
+
+/* ******************
+About Us section
+****************** */
+
+.section-about {
+    /* background: url("../images/about.png");
+    background-size: 80%; */
+    background-color: #f1f2f2;
+    background-image: url("../images/aboutt.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+.section-about p:first-child {
+    margin-top: 20px;
+}
+.section-about p {
+    font-size: 14px;
+}
+.section-about .btn-yellow {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+/* ******************
+Our Service section
+****************** */
+
+.section-service .dot {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    line-height: 48px;
+    background-color: #ffbd1a;
+}
+.section-service .col-bg {
+    background-color: #f1f2f2;
+    margin: 15px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+}
+
+/* ******************
+Portfolio section
+****************** */
+
+.section-portfolio {
+    /* padding: 10px; */
+    background-color: #212121;
+}
+.section-portfolio .nav-link {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.section-portfolio .nav-item .active {
+    color: #ff831d;
+    background: none;
+}
+
+/* ******************
+Packages section
+****************** */
+
+.section-packages {
+    background-image: url("../images/pkg_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.section-packages .list-packages {
+    border: 2px solid #979797;
+    padding: 20px 30px 50px 30px;
+    width: 300px;
+    height: 450px;
+}
+.section-packages .list-packages:hover {
+    border: 2px solid #245677;
+    padding: 20px 30px 50px 30px;
+}
+.packages {
+    display: flex;
+}
+.packages-1 {
+    margin-right : -20px;
+    margin-left: auto;
+}
+.packages-2 {
+    position: relative;
+    top: -20px;
+    z-index: 10;
+} 
+.packages-1 .list-packages, .packages-3 .list-packages {
+    background-color: #ffffff;
+}
+.packages-2 .list-packages {
+    background-color: #ffffff;
+}
+.packages-3 {
+    margin-right : auto;
+    margin-left: -20px;
+}
+.section-packages .list-packages {
+    border: 2px solid #979797;
+    padding-bottom: 50px;
+}
+
+.section-packages .list-packages h1 {
+    color: #8ace08;
+}
+.section-packages .list-packages hr {
+    border: 1px solid #979797;
+}
+.section-packages .list-packages p {
+    font-size: 14px;
+    color: #999696;
+    margin: 0;
+}
+.section-packages .packages button {
+    position: absolute;
+    z-index: 1;
+    bottom: -15px;
+    transform: translate(-50%, -50%);
+    padding: 5px 30px;
+    font-size: 14px;
+    background-color: #0685f6;
+    text-transform: uppercase;
+}
+
+/* ******************
+Process section
+****************** */
+/* .section-process  */
+
+.section-process .yellow-dot {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    font-size: 10px;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    background-color: #ffbd1a;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;   
+
+}
+.section-process .dot {
+    height: 120px;
+    width: 120px;
+    line-height: 120px;
+    background-color: #f1f2f2;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+}
+.section-process .dot::before {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 1px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    z-index: 1;
+}
+.section-process .dot-first:before {
+    content: "";
+    display: none;
+}
+.section-process .dot::after {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 1px;
+    background: black;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    z-index: 1;
+}
+.section-process .dot-last::after {
+    content: "";
+    display: none;
+}
+
+/* ******************
+People About Us  section
+****************** */
+
+.section-about-us{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background-color: #f1f2f2;
+}
+.section-about-us .dot {
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    background-color: blueviolet;
+}
+.section-about-us .owl-carousel h1 {
+    font-size: 20px;
+}
+.section-about-us .owl-carousel p {
+    font-size: 14px;
+}
+.section-about-us .top-left {
+    border: 1px #999696;
+    border-style: none solid solid none;
+}
+.section-about-us .top-right {
+    border: 1px #999696;
+    border-style: none none solid solid;
+}
+.section-about-us .bottom-left {
+    border: 1px #999696;
+    border-style: solid solid none none;
+}
+.section-about-us .bottom-right {
+    border: 1px #999696;
+    border-style: solid none none solid;
+}
+
+/* ******************
+Skills  section
+****************** */
+
+/* .section-skills .btn-yellow {
+    margin-top: 0;
+} */
+
+
+/* ******************
+Form  section
+****************** */
+
+.section-form {
+    padding-top: 40px;
+    background-color: #8dc63f;
+}
+.section-form  .form-item{
+    float: left;
+    margin-right: 30px;
+}
+
+
+/* ******************
+Contact  section
+****************** */
+.section-contact {
+    padding-bottom: 0;
+    margin-bottom: -6px;
+    background-color: #ffffff;
+}
+
+
+/* ******************
+Footer  section
+****************** */
+
+footer {
+    background-color: #668e19;
+    padding: 40px 0;
+    margin-top: 0;
+}
+footer p, footer h1, footer a{
+    color: #ffffff;
+}
+footer h1 {
+    text-transform: uppercase;
+    font-size: 22px;
+}
+footer .social-circle-icons i{
+    color: #668e19;
+}
+
+
+
+/* ******************
+Slider
+****************** */
+
+
+.section-slider .owl-carousel span {
+    background: #ffffff5d !important;
+}
+
+.section-slider .owl-carousel .active span {
+    background: #ffffff !important;
+}
+
+
+
+
+
+
+.owl-carousel span {
+    width:10px;
+    height:10px;
+    margin:5px 7px;
+    background: #ffbd1a !important;
+    display:block;
+    /* -webkit-backface-visibility:visible; */
+    -webkit-transition:opacity 200ms ease;
+    -moz-transition:opacity 200ms ease;
+    -ms-transition:opacity 200ms ease;
+    -o-transition:opacity 200ms ease;
+    transition:opacity 200ms ease;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+}
+
+.owl-carousel .active span {
+    width:10px;
+    height:10px;
+    margin:5px 7px;
+    background: #ff831d !important;
+    display:block;
+    /* -webkit-backface-visibility:visible; */
+    -webkit-transition:opacity 200ms ease;
+    -moz-transition:opacity 200ms ease;
+    -ms-transition:opacity 200ms ease;
+    -o-transition:opacity 200ms ease;
+    transition:opacity 200ms ease;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+}
+.owl-carousel .owl-dots {
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+
+
+
+
+
+/* ******************
+Mobile First Responsive
+****************** */
+
+
+
+@media (max-width: 768px) {
+
+    .section-h1 {
+        font-size: 30px;
+    }
+
+
+
+
+
+/* ******************
+slider section
+****************** */
+
+
+
+    .section-slider h1 {
+        font-size: 35px;
+    }
+
+    /* ****************** 
+    About Us section
+****************** */
+
+.section-about {
+    background-image: none;
+}
+/* .section-about .btn-yellow {
+
+} */
+
+/* ******************
+Portfolio section
+****************** */
+
+.section-portfolio .nav-link {
+    font-size: 10px;
+}
+
+/* ******************
+packages section
+****************** */
+
+    .packages {
+        display: flex;
+        flex-direction: column;
+    }
+    .packages-1 {
+        position: relative;
+        margin-right : auto;
+        margin-left: auto;
+    }
+    .packages-2 {
+        position: relative;
+        top: 20px;
+        z-index: 0;
+        margin-right : auto;
+        margin-left: auto;
+    } 
+    .packages-3 {
+        position: relative;
+        top: 40px;
+        margin-bottom: 40px;
+        margin-right : auto;
+        margin-left: auto;
+    }
+
+
+
+
+    /* ******************
+    Process section
+    ****************** */
+
+
+    .section-process .dot::before {
+        content: "";
+        display: none;
+    }
+    .section-process .dot::after {
+        content: "";
+        display: none;
+    }
+    .section-process .dot-last::after {
+        content: "";
+        display: none;
+    }
+
+
+    /* ******************
+    Form  section
+    ****************** */
+    
+    .section-form h1 {
+        font-size: 35px;
+    }
+    .section-form .form-item input{
+        width: 100%;
+    }
+    .section-form  .form-item{
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .section-form .form-item button{
+        margin-top: 30px;
+    }
+    
+
+    /* ******************
+    Form  section
+    ****************** */
+    /* .section-contact {
+        padding-bottom: 0;
+        margin-bottom: -6px;
+        background-color: #ffffff;
+    } */
+}
